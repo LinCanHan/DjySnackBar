@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E927DA1E18D20F8E001483DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E927DA1D18D20F8E001483DC /* Foundation.framework */; };
+		E927DA2018D20F8E001483DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E927DA1F18D20F8E001483DC /* CoreGraphics.framework */; };
+		E927DA2218D20F8E001483DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E927DA2118D20F8E001483DC /* UIKit.framework */; };
+		E927DA2818D20F8E001483DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E927DA2618D20F8E001483DC /* InfoPlist.strings */; };
+		E927DA2A18D20F8E001483DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E927DA2918D20F8E001483DC /* main.m */; };
+		E927DA2E18D20F8E001483DC /* LCHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E927DA2D18D20F8E001483DC /* LCHAppDelegate.m */; };
+		E927DA3118D20F8E001483DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E927DA2F18D20F8E001483DC /* Main.storyboard */; };
+		E927DA3418D20F8E001483DC /* LCHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E927DA3318D20F8E001483DC /* LCHViewController.m */; };
+		E927DA3618D20F8E001483DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E927DA3518D20F8E001483DC /* Images.xcassets */; };
+		E927DA3D18D20F8F001483DC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E927DA3C18D20F8F001483DC /* XCTest.framework */; };
+		E927DA3E18D20F8F001483DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E927DA1D18D20F8E001483DC /* Foundation.framework */; };
+		E927DA3F18D20F8F001483DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E927DA2118D20F8E001483DC /* UIKit.framework */; };
+		E927DA4718D20F8F001483DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E927DA4518D20F8F001483DC /* InfoPlist.strings */; };
+		E927DA4918D20F8F001483DC /* DjySnackBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E927DA4818D20F8F001483DC /* DjySnackBarTests.m */; };
+		E927DA5418D34CAF001483DC /* LCHMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E927DA5318D34CAF001483DC /* LCHMenuViewController.m */; };
+		E927DA5618D353EB001483DC /* SnackBarData.plist in Resources */ = {isa = PBXBuildFile; fileRef = E927DA5518D353EB001483DC /* SnackBarData.plist */; };
+		E9363F7418D5E62800D059B3 /* LCHDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E9363F7318D5E62800D059B3 /* LCHDataModel.m */; };
+		E9363F7A18D885B600D059B3 /* LCHMenuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9363F7918D885B600D059B3 /* LCHMenuDetailViewController.m */; };
+		E9363F8118DA04D100D059B3 /* DouBanChaoShou.png in Resources */ = {isa = PBXBuildFile; fileRef = E9363F7C18DA04D100D059B3 /* DouBanChaoShou.png */; };
+		E9363F8218DA04D100D059B3 /* HeiZhiMaShuiJiao.png in Resources */ = {isa = PBXBuildFile; fileRef = E9363F7D18DA04D100D059B3 /* HeiZhiMaShuiJiao.png */; };
+		E9363F8318DA04D100D059B3 /* HuoGuoFen.png in Resources */ = {isa = PBXBuildFile; fileRef = E9363F7E18DA04D100D059B3 /* HuoGuoFen.png */; };
+		E9363F8418DA04D100D059B3 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = E9363F7F18DA04D100D059B3 /* thumb.png */; };
+		E9363F8518DA04D100D059B3 /* NiuRouDouHua.png in Resources */ = {isa = PBXBuildFile; fileRef = E9363F8018DA04D100D059B3 /* NiuRouDouHua.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E927DA4018D20F8F001483DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E927DA1218D20F8E001483DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E927DA1918D20F8E001483DC;
+			remoteInfo = DjySnackBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E927DA1A18D20F8E001483DC /* DjySnackBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DjySnackBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E927DA1D18D20F8E001483DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E927DA1F18D20F8E001483DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E927DA2118D20F8E001483DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E927DA2518D20F8E001483DC /* DjySnackBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DjySnackBar-Info.plist"; sourceTree = "<group>"; };
+		E927DA2718D20F8E001483DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E927DA2918D20F8E001483DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E927DA2B18D20F8E001483DC /* DjySnackBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DjySnackBar-Prefix.pch"; sourceTree = "<group>"; };
+		E927DA2C18D20F8E001483DC /* LCHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCHAppDelegate.h; sourceTree = "<group>"; };
+		E927DA2D18D20F8E001483DC /* LCHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCHAppDelegate.m; sourceTree = "<group>"; };
+		E927DA3018D20F8E001483DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E927DA3218D20F8E001483DC /* LCHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCHViewController.h; sourceTree = "<group>"; };
+		E927DA3318D20F8E001483DC /* LCHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCHViewController.m; sourceTree = "<group>"; };
+		E927DA3518D20F8E001483DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E927DA3B18D20F8F001483DC /* DjySnackBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DjySnackBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E927DA3C18D20F8F001483DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E927DA4418D20F8F001483DC /* DjySnackBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DjySnackBarTests-Info.plist"; sourceTree = "<group>"; };
+		E927DA4618D20F8F001483DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E927DA4818D20F8F001483DC /* DjySnackBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DjySnackBarTests.m; sourceTree = "<group>"; };
+		E927DA5218D34CAF001483DC /* LCHMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LCHMenuViewController.h; path = ../LCHMenuViewController.h; sourceTree = "<group>"; };
+		E927DA5318D34CAF001483DC /* LCHMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LCHMenuViewController.m; path = ../LCHMenuViewController.m; sourceTree = "<group>"; };
+		E927DA5518D353EB001483DC /* SnackBarData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SnackBarData.plist; sourceTree = "<group>"; };
+		E9363F7218D5E62800D059B3 /* LCHDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHDataModel.h; sourceTree = "<group>"; };
+		E9363F7318D5E62800D059B3 /* LCHDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCHDataModel.m; sourceTree = "<group>"; };
+		E9363F7818D885B600D059B3 /* LCHMenuDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHMenuDetailViewController.h; sourceTree = "<group>"; };
+		E9363F7918D885B600D059B3 /* LCHMenuDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCHMenuDetailViewController.m; sourceTree = "<group>"; };
+		E9363F7C18DA04D100D059B3 /* DouBanChaoShou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DouBanChaoShou.png; sourceTree = "<group>"; };
+		E9363F7D18DA04D100D059B3 /* HeiZhiMaShuiJiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeiZhiMaShuiJiao.png; sourceTree = "<group>"; };
+		E9363F7E18DA04D100D059B3 /* HuoGuoFen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HuoGuoFen.png; sourceTree = "<group>"; };
+		E9363F7F18DA04D100D059B3 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		E9363F8018DA04D100D059B3 /* NiuRouDouHua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NiuRouDouHua.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E927DA1718D20F8E001483DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E927DA2018D20F8E001483DC /* CoreGraphics.framework in Frameworks */,
+				E927DA2218D20F8E001483DC /* UIKit.framework in Frameworks */,
+				E927DA1E18D20F8E001483DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E927DA3818D20F8F001483DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E927DA3D18D20F8F001483DC /* XCTest.framework in Frameworks */,
+				E927DA3F18D20F8F001483DC /* UIKit.framework in Frameworks */,
+				E927DA3E18D20F8F001483DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E927DA1118D20F8E001483DC = {
+			isa = PBXGroup;
+			children = (
+				E927DA2318D20F8E001483DC /* DjySnackBar */,
+				E927DA4218D20F8F001483DC /* DjySnackBarTests */,
+				E927DA1C18D20F8E001483DC /* Frameworks */,
+				E927DA1B18D20F8E001483DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E927DA1B18D20F8E001483DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E927DA1A18D20F8E001483DC /* DjySnackBar.app */,
+				E927DA3B18D20F8F001483DC /* DjySnackBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E927DA1C18D20F8E001483DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E927DA1D18D20F8E001483DC /* Foundation.framework */,
+				E927DA1F18D20F8E001483DC /* CoreGraphics.framework */,
+				E927DA2118D20F8E001483DC /* UIKit.framework */,
+				E927DA3C18D20F8F001483DC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E927DA2318D20F8E001483DC /* DjySnackBar */ = {
+			isa = PBXGroup;
+			children = (
+				E9363F7818D885B600D059B3 /* LCHMenuDetailViewController.h */,
+				E9363F7918D885B600D059B3 /* LCHMenuDetailViewController.m */,
+				E9363F7218D5E62800D059B3 /* LCHDataModel.h */,
+				E9363F7318D5E62800D059B3 /* LCHDataModel.m */,
+				E927DA5218D34CAF001483DC /* LCHMenuViewController.h */,
+				E927DA5318D34CAF001483DC /* LCHMenuViewController.m */,
+				E927DA2C18D20F8E001483DC /* LCHAppDelegate.h */,
+				E927DA2D18D20F8E001483DC /* LCHAppDelegate.m */,
+				E927DA2F18D20F8E001483DC /* Main.storyboard */,
+				E927DA3218D20F8E001483DC /* LCHViewController.h */,
+				E927DA3318D20F8E001483DC /* LCHViewController.m */,
+				E927DA3518D20F8E001483DC /* Images.xcassets */,
+				E927DA2418D20F8E001483DC /* Supporting Files */,
+			);
+			path = DjySnackBar;
+			sourceTree = "<group>";
+		};
+		E927DA2418D20F8E001483DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9363F7B18DA04D100D059B3 /* 菜品 */,
+				E927DA2518D20F8E001483DC /* DjySnackBar-Info.plist */,
+				E927DA2618D20F8E001483DC /* InfoPlist.strings */,
+				E927DA2918D20F8E001483DC /* main.m */,
+				E927DA2B18D20F8E001483DC /* DjySnackBar-Prefix.pch */,
+				E927DA5518D353EB001483DC /* SnackBarData.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E927DA4218D20F8F001483DC /* DjySnackBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E927DA4818D20F8F001483DC /* DjySnackBarTests.m */,
+				E927DA4318D20F8F001483DC /* Supporting Files */,
+			);
+			path = DjySnackBarTests;
+			sourceTree = "<group>";
+		};
+		E927DA4318D20F8F001483DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E927DA4418D20F8F001483DC /* DjySnackBarTests-Info.plist */,
+				E927DA4518D20F8F001483DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9363F7B18DA04D100D059B3 /* 菜品 */ = {
+			isa = PBXGroup;
+			children = (
+				E9363F7C18DA04D100D059B3 /* DouBanChaoShou.png */,
+				E9363F7D18DA04D100D059B3 /* HeiZhiMaShuiJiao.png */,
+				E9363F7E18DA04D100D059B3 /* HuoGuoFen.png */,
+				E9363F7F18DA04D100D059B3 /* thumb.png */,
+				E9363F8018DA04D100D059B3 /* NiuRouDouHua.png */,
+			);
+			path = "菜品";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E927DA1918D20F8E001483DC /* DjySnackBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E927DA4C18D20F8F001483DC /* Build configuration list for PBXNativeTarget "DjySnackBar" */;
+			buildPhases = (
+				E927DA1618D20F8E001483DC /* Sources */,
+				E927DA1718D20F8E001483DC /* Frameworks */,
+				E927DA1818D20F8E001483DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DjySnackBar;
+			productName = DjySnackBar;
+			productReference = E927DA1A18D20F8E001483DC /* DjySnackBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E927DA3A18D20F8F001483DC /* DjySnackBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E927DA4F18D20F8F001483DC /* Build configuration list for PBXNativeTarget "DjySnackBarTests" */;
+			buildPhases = (
+				E927DA3718D20F8F001483DC /* Sources */,
+				E927DA3818D20F8F001483DC /* Frameworks */,
+				E927DA3918D20F8F001483DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E927DA4118D20F8F001483DC /* PBXTargetDependency */,
+			);
+			name = DjySnackBarTests;
+			productName = DjySnackBarTests;
+			productReference = E927DA3B18D20F8F001483DC /* DjySnackBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E927DA1218D20F8E001483DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCH;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "林灿涵";
+				TargetAttributes = {
+					E927DA3A18D20F8F001483DC = {
+						TestTargetID = E927DA1918D20F8E001483DC;
+					};
+				};
+			};
+			buildConfigurationList = E927DA1518D20F8E001483DC /* Build configuration list for PBXProject "DjySnackBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E927DA1118D20F8E001483DC;
+			productRefGroup = E927DA1B18D20F8E001483DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E927DA1918D20F8E001483DC /* DjySnackBar */,
+				E927DA3A18D20F8F001483DC /* DjySnackBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E927DA1818D20F8E001483DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9363F8418DA04D100D059B3 /* thumb.png in Resources */,
+				E9363F8518DA04D100D059B3 /* NiuRouDouHua.png in Resources */,
+				E9363F8318DA04D100D059B3 /* HuoGuoFen.png in Resources */,
+				E927DA3618D20F8E001483DC /* Images.xcassets in Resources */,
+				E927DA2818D20F8E001483DC /* InfoPlist.strings in Resources */,
+				E927DA3118D20F8E001483DC /* Main.storyboard in Resources */,
+				E927DA5618D353EB001483DC /* SnackBarData.plist in Resources */,
+				E9363F8218DA04D100D059B3 /* HeiZhiMaShuiJiao.png in Resources */,
+				E9363F8118DA04D100D059B3 /* DouBanChaoShou.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E927DA3918D20F8F001483DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E927DA4718D20F8F001483DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E927DA1618D20F8E001483DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9363F7418D5E62800D059B3 /* LCHDataModel.m in Sources */,
+				E927DA2E18D20F8E001483DC /* LCHAppDelegate.m in Sources */,
+				E927DA5418D34CAF001483DC /* LCHMenuViewController.m in Sources */,
+				E927DA2A18D20F8E001483DC /* main.m in Sources */,
+				E9363F7A18D885B600D059B3 /* LCHMenuDetailViewController.m in Sources */,
+				E927DA3418D20F8E001483DC /* LCHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E927DA3718D20F8F001483DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E927DA4918D20F8F001483DC /* DjySnackBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E927DA4118D20F8F001483DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E927DA1918D20F8E001483DC /* DjySnackBar */;
+			targetProxy = E927DA4018D20F8F001483DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E927DA2618D20F8E001483DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E927DA2718D20F8E001483DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E927DA2F18D20F8E001483DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E927DA3018D20F8E001483DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E927DA4518D20F8F001483DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E927DA4618D20F8F001483DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E927DA4A18D20F8F001483DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E927DA4B18D20F8F001483DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E927DA4D18D20F8F001483DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DjySnackBar/DjySnackBar-Prefix.pch";
+				INFOPLIST_FILE = "DjySnackBar/DjySnackBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E927DA4E18D20F8F001483DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DjySnackBar/DjySnackBar-Prefix.pch";
+				INFOPLIST_FILE = "DjySnackBar/DjySnackBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E927DA5018D20F8F001483DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DjySnackBar.app/DjySnackBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DjySnackBar/DjySnackBar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DjySnackBarTests/DjySnackBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E927DA5118D20F8F001483DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DjySnackBar.app/DjySnackBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DjySnackBar/DjySnackBar-Prefix.pch";
+				INFOPLIST_FILE = "DjySnackBarTests/DjySnackBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E927DA1518D20F8E001483DC /* Build configuration list for PBXProject "DjySnackBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E927DA4A18D20F8F001483DC /* Debug */,
+				E927DA4B18D20F8F001483DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E927DA4C18D20F8F001483DC /* Build configuration list for PBXNativeTarget "DjySnackBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E927DA4D18D20F8F001483DC /* Debug */,
+				E927DA4E18D20F8F001483DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E927DA4F18D20F8F001483DC /* Build configuration list for PBXNativeTarget "DjySnackBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E927DA5018D20F8F001483DC /* Debug */,
+				E927DA5118D20F8F001483DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E927DA1218D20F8E001483DC /* Project object */;
+}
