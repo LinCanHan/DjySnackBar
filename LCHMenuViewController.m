@@ -37,6 +37,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    //加载plist中的数据到模型对象.
     NSBundle *bundle = [NSBundle mainBundle];
     NSString *path = [bundle pathForResource:@"SnackBarData" ofType:@"plist"];
     _dicts = [NSMutableArray arrayWithContentsOfFile:path];
@@ -44,7 +45,7 @@
     
     //把被选中的数据存储到我们的删除数组中.
     _deleteSnacks = [NSMutableArray array];
-    
+    //遍历加载菜品一览数据,将每一行数据作为一个模型对象加入模型对象数组.
     for(NSDictionary *dict in _dicts)
     {
         [_dataModes addObject:[LCHDataModel LCHDataModelWithDict:dict]];
@@ -84,19 +85,21 @@
     }
     LCHDataModel *lchDatamodel  = _dataModes[indexPath.row];
     
+    //当显示每一行cell的时候,判断当前被点击的这一行cell是否已经存在删除数组中.如果在的话,则更改这个cell的状态.
     if([_deleteSnacks containsObject:lchDatamodel]&& _deleteSnacks != nil){
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
     }
     else{//不打勾
-        cell.accessoryType = UITableViewCellStateShowingDeleteConfirmationMask;
+        cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
     }
     
-    
+    //把模型对象的数值赋值给我们的cell
     cell.textLabel.text = lchDatamodel.name;
     cell.detailTextLabel.text = lchDatamodel.desc;
     
     cell.imageView.image = [UIImage imageNamed:lchDatamodel.icon];
     //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    //设置导航栏名称.
     self.navigationItem.title = @"新繁牛肉豆花菜品一览";
 
     return cell;
@@ -124,7 +127,8 @@
 {
     //通过indexpath,得到数据模型中相应的数据.
     LCHDataModel *selectedDataModel = [_dataModes objectAtIndex:indexPath.row];
-
+    
+    //判断一下当前被点中的这一行cell是否已经被点击过了.若是的话,则从删除数组中去掉这个cell.如果没有则添加到删除数组中.
     if([_deleteSnacks containsObject:selectedDataModel])
     {
         [_deleteSnacks removeObject:selectedDataModel];
@@ -147,7 +151,7 @@
     LCHMenuDetailViewController *lchDetailMenuController = segue.destinationViewController;
     //从数据模型中拿出当前被点击这一行数据的cell的信息.
     LCHDataModel *dataModel = [_dataModes objectAtIndex:indexpath.row];
-    //给
+    //给目标对象的属性赋值.
     lchDetailMenuController.nameText = dataModel.name;
     lchDetailMenuController.descText = dataModel.desc;
     lchDetailMenuController.priceText = dataModel.price;

@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //view初始化时给各个控件赋值.
     _picture.image = [UIImage imageNamed:_pictureText];
     _desc.text = _descText;
     _price.text = _priceText;

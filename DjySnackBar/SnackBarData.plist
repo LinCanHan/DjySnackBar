@@ -4,9 +4,9 @@
 <array>
 	<dict>
 		<key>price</key>
-		<string>1</string>
+		<string>5元/碗</string>
 		<key>desc</key>
-		<string>本店特色之一。麻辣鲜嫩，滑利爽口。赞不绝口。</string>
+		<string>本店特色之一。麻辣鲜嫩，滑利爽口。赞不绝口。推荐作为前菜食用。</string>
 		<key>icon</key>
 		<string>NiuRouDouHua.png</string>
 		<key>name</key>
@@ -14,9 +14,9 @@
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>1</string>
+		<string>5元/两</string>
 		<key>desc</key>
-		<string>本店特色之一。麻辣香甜，回味无穷。</string>
+		<string>本店特色之一。麻辣香甜，回味无穷。1碗豆花1两黑芝麻水饺，即可吃巴适。</string>
 		<key>icon</key>
 		<string>HeiZhiMaShuiJiao.png</string>
 		<key>name</key>
@@ -24,9 +24,9 @@
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>1</string>
+		<string>5元/碗</string>
 		<key>desc</key>
-		<string>冷热都可享用。</string>
+		<string>口味清淡的食客，在用餐过程中建议辅一碗黑米八宝粥，既解辣，又能养颜美发。</string>
 		<key>icon</key>
 		<string>BaBaoZhou.png</string>
 		<key>name</key>
@@ -34,9 +34,9 @@
 	</dict>
 	<dict>
 		<key>price</key>
-		<string>1</string>
+		<string>5元/两</string>
 		<key>desc</key>
-		<string>与其他地方的豆瓣抄手都不一样</string>
+		<string>本店特色之一。抄手无汤。主要调料为豆瓣。推荐豆瓣抄手加上豆花与黑芝麻水饺。本店三大特色小吃绝对值得您体验</string>
 		<key>icon</key>
 		<string>DouBanChaoShou.png</string>
 		<key>name</key>
@@ -44,9 +44,9 @@
 	</dict>
 	<dict>
 		<key>price</key>
-		<string></string>
+		<string>8元/碗</string>
 		<key>desc</key>
-		<string>纯正四川火锅风味。香。</string>
+		<string>正宗四川火锅粉。麻辣鲜香一应俱全。绝对是各位四川好吃嘴不可多得的美食。口味淡的朋友可千万记得店一碗黑米八宝粥。</string>
 		<key>icon</key>
 		<string>HuoGuoFen.png</string>
 		<key>name</key>
@@ -54,33 +54,13 @@
 	</dict>
 	<dict>
 		<key>price</key>
-		<string></string>
+		<string>8元/碗</string>
 		<key>desc</key>
-		<string>到处都有牛肉面。但是我们的牛肉面最好吃</string>
+		<string>面条用手工现场拉成，一碗面不到两分钟即可做好，再浇上调好的牛肉面汤、调上红红的辣椒油、香菜，食之令人叫绝。</string>
 		<key>icon</key>
-		<string></string>
+		<string>NiuRouMian.png</string>
 		<key>name</key>
 		<string>牛肉面</string>
-	</dict>
-	<dict>
-		<key>price</key>
-		<string></string>
-		<key>desc</key>
-		<string></string>
-		<key>icon</key>
-		<string></string>
-		<key>name</key>
-		<string>醉豆花</string>
-	</dict>
-	<dict>
-		<key>price</key>
-		<string></string>
-		<key>desc</key>
-		<string></string>
-		<key>icon</key>
-		<string></string>
-		<key>name</key>
-		<string>可乐一杯</string>
 	</dict>
 </array>
 </plist>
